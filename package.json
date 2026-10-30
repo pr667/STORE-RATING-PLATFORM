@@ -1,12 +1,12 @@
 {
   "name": "store-rating-app",
   "version": "1.0.0",
-  "description": "A fullstack store rating application with role-based authentication",
+  "description": "A store rating platform with role-based access for users, store owners, and administrators.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "client": "cd client && npm start",
+    "client": "cd client && npm run dev",
     "server": "nodemon server.js",
     "build": "cd client && npm run build",
     "heroku-postbuild": "cd client && npm install && npm run build"
@@ -33,6 +33,5 @@
     "react",
     "postgresql"
   ],
-  "author": "Developer",
   "license": "MIT"
 }

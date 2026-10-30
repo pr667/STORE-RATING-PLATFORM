@@ -93,8 +93,3 @@ Thumbs.db
 # Build directories
 build/
 dist/
-
-# Documentation files (project-specific)
-QnA.md
-details.md
-script.md

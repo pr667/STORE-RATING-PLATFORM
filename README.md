@@ -33,7 +33,7 @@ A full-stack application for discovering stores and submitting ratings. It inclu
 ### 1. Clone and install dependencies
 
 ```bash
-git clone https://github.com/Abhijayshah/Store-Rating-Platform.git
+git clone https://github.com/pr667/STORE-RATING-PLATFORM.git
 cd Store-Rating-Platform
 npm install
 cd client
