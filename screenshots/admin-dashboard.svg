@@ -1,0 +1,124 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect width="1200" height="70" fill="url(#headerBg)"/>
+  <text x="30" y="45" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Store Rating Platform - Admin Dashboard</text>
+  <text x="1050" y="30" font-family="Arial, sans-serif" font-size="14" fill="white">Welcome, Admin</text>
+  <text x="1050" y="50" font-family="Arial, sans-serif" font-size="12" fill="#e0e0e0">admin@example.com</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="70" width="250" height="730" fill="#2c3e50"/>
+  
+  <!-- Sidebar Menu Items -->
+  <rect x="0" y="70" width="250" height="50" fill="#34495e"/>
+  <text x="20" y="100" font-family="Arial, sans-serif" font-size="16" fill="white">📊 Dashboard</text>
+  
+  <rect x="0" y="120" width="250" height="50" fill="#2c3e50"/>
+  <text x="20" y="150" font-family="Arial, sans-serif" font-size="16" fill="#bdc3c7">👥 Users Management</text>
+  
+  <rect x="0" y="170" width="250" height="50" fill="#2c3e50"/>
+  <text x="20" y="200" font-family="Arial, sans-serif" font-size="16" fill="#bdc3c7">🏪 Stores Management</text>
+  
+  <rect x="0" y="220" width="250" height="50" fill="#2c3e50"/>
+  <text x="20" y="250" font-family="Arial, sans-serif" font-size="16" fill="#bdc3c7">⭐ Ratings Overview</text>
+  
+  <rect x="0" y="270" width="250" height="50" fill="#2c3e50"/>
+  <text x="20" y="300" font-family="Arial, sans-serif" font-size="16" fill="#bdc3c7">📈 Analytics</text>
+  
+  <!-- Main Content Area -->
+  <rect x="250" y="70" width="950" height="730" fill="#ffffff"/>
+  
+  <!-- Stats Cards -->
+  <rect x="280" y="100" width="200" height="120" rx="8" fill="#3498db" stroke="none"/>
+  <text x="380" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">1,247</text>
+  <text x="380" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Total Users</text>
+  <text x="380" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">+12% this month</text>
+  
+  <rect x="500" y="100" width="200" height="120" rx="8" fill="#e74c3c" stroke="none"/>
+  <text x="600" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">342</text>
+  <text x="600" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Total Stores</text>
+  <text x="600" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">+8% this month</text>
+  
+  <rect x="720" y="100" width="200" height="120" rx="8" fill="#f39c12" stroke="none"/>
+  <text x="820" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">5,689</text>
+  <text x="820" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Total Ratings</text>
+  <text x="820" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">+25% this month</text>
+  
+  <rect x="940" y="100" width="200" height="120" rx="8" fill="#27ae60" stroke="none"/>
+  <text x="1040" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">4.2</text>
+  <text x="1040" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Avg Rating</text>
+  <text x="1040" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">+0.3 this month</text>
+  
+  <!-- Recent Users Table -->
+  <rect x="280" y="250" width="450" height="300" rx="8" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="300" y="280" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Recent Users</text>
+  
+  <!-- Table Header -->
+  <rect x="300" y="290" width="410" height="30" fill="#f8f9fa"/>
+  <text x="310" y="308" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#666">Name</text>
+  <text x="450" y="308" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#666">Email</text>
+  <text x="600" y="308" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#666">Role</text>
+  <text x="670" y="308" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#666">Status</text>
+  
+  <!-- Table Rows -->
+  <text x="310" y="338" font-family="Arial, sans-serif" font-size="12" fill="#333">John Doe</text>
+  <text x="450" y="338" font-family="Arial, sans-serif" font-size="12" fill="#666">john@email.com</text>
+  <text x="600" y="338" font-family="Arial, sans-serif" font-size="12" fill="#666">User</text>
+  <circle cx="680" cy="335" r="4" fill="#27ae60"/>
+  
+  <text x="310" y="358" font-family="Arial, sans-serif" font-size="12" fill="#333">Jane Smith</text>
+  <text x="450" y="358" font-family="Arial, sans-serif" font-size="12" fill="#666">jane@email.com</text>
+  <text x="600" y="358" font-family="Arial, sans-serif" font-size="12" fill="#666">Owner</text>
+  <circle cx="680" cy="355" r="4" fill="#27ae60"/>
+  
+  <text x="310" y="378" font-family="Arial, sans-serif" font-size="12" fill="#333">Mike Johnson</text>
+  <text x="450" y="378" font-family="Arial, sans-serif" font-size="12" fill="#666">mike@email.com</text>
+  <text x="600" y="378" font-family="Arial, sans-serif" font-size="12" fill="#666">User</text>
+  <circle cx="680" cy="375" r="4" fill="#e74c3c"/>
+  
+  <!-- Recent Stores Table -->
+  <rect x="750" y="250" width="420" height="300" rx="8" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="770" y="280" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Recent Stores</text>
+  
+  <!-- Store Table Header -->
+  <rect x="770" y="290" width="380" height="30" fill="#f8f9fa"/>
+  <text x="780" y="308" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#666">Store Name</text>
+  <text x="950" y="308" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#666">Owner</text>
+  <text x="1080" y="308" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#666">Rating</text>
+  
+  <!-- Store Rows -->
+  <text x="780" y="338" font-family="Arial, sans-serif" font-size="12" fill="#333">Coffee Corner</text>
+  <text x="950" y="338" font-family="Arial, sans-serif" font-size="12" fill="#666">Alice Brown</text>
+  <text x="1080" y="338" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">4.5 ⭐</text>
+  
+  <text x="780" y="358" font-family="Arial, sans-serif" font-size="12" fill="#333">Tech Store</text>
+  <text x="950" y="358" font-family="Arial, sans-serif" font-size="12" fill="#666">Bob Wilson</text>
+  <text x="1080" y="358" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">4.2 ⭐</text>
+  
+  <text x="780" y="378" font-family="Arial, sans-serif" font-size="12" fill="#333">Book Haven</text>
+  <text x="950" y="378" font-family="Arial, sans-serif" font-size="12" fill="#666">Carol Davis</text>
+  <text x="1080" y="378" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">4.8 ⭐</text>
+  
+  <!-- Chart Area -->
+  <rect x="280" y="570" width="890" height="200" rx="8" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="300" y="600" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Platform Growth Analytics</text>
+  
+  <!-- Simple Chart Representation -->
+  <polyline points="320,720 380,700 440,680 500,660 560,640 620,620 680,600 740,580 800,560 860,540 920,520" 
+            fill="none" stroke="#3498db" stroke-width="3"/>
+  <text x="320" y="740" font-family="Arial, sans-serif" font-size="10" fill="#666">Jan</text>
+  <text x="500" y="740" font-family="Arial, sans-serif" font-size="10" fill="#666">Jun</text>
+  <text x="860" y="740" font-family="Arial, sans-serif" font-size="10" fill="#666">Dec</text>
+  
+  <!-- Footer -->
+  <text x="600" y="790" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#999">© 2024 Store Rating Platform - Admin Dashboard</text>
+</svg>
