@@ -57,7 +57,7 @@ export default function Login() {
         sx={{ alignItems: 'center', justifyContent: 'center', mb: 3 }}
       >
         <StorefrontOutlinedIcon color="primary" sx={{ fontSize: 32 }} />
-        <Typography variant="h5" component="h1" fontWeight={700} color="primary.main">
+        <Typography variant="h5" component="h1" sx={{ fontWeight: 700, color: 'primary.main' }}>
           Store Rating Platform
         </Typography>
       </Stack>
