@@ -15,8 +15,7 @@ interface Props {
   onSaved: (message: string) => void;
 }
 
-// Render this only while it is needed (e.g. {selected && <RateDialog key=... />})
-// so its form state starts fresh from the props each time it opens.
+// Mount only while a store is selected so the form resets when reopened.
 export default function RateDialog({
   storeId, storeName, initialRating, initialComment, onClose, onSaved,
 }: Props) {

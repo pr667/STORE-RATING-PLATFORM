@@ -128,8 +128,7 @@ router.get('/', authenticateToken, async (req, res) => {
   }
 });
 
-// NOTE: fixed-name routes like /my-store MUST stay above /:id,
-// otherwise Express treats "my-store" as a store id.
+// Keep fixed routes above /:id so Express doesn't treat them as store IDs.
 
 // @route   GET /api/stores/my-store
 // @desc    Get store owner's store

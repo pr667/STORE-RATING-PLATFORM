@@ -27,7 +27,6 @@ export default function Login() {
     formState: { errors, isSubmitting },
   } = useForm<LoginForm>({ resolver: yupResolver(schema) });
 
-  // Helper: wires a form field to React Hook Form + MUI error display
   const field = (name: keyof LoginForm) => {
     const { ref, ...rest } = register(name);
     return {
@@ -47,7 +46,6 @@ export default function Login() {
     }
   };
 
-  // Already logged in? Go to your home page.
   if (user) return <Navigate to={homePathForRole(user.role)} replace />;
 
   return (

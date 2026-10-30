@@ -14,11 +14,9 @@ import AdminStores from './pages/admin/AdminStores';
 export default function App() {
   return (
     <Routes>
-      {/* Public pages */}
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
 
-      {/* Everything below needs a login and shows the navbar */}
       <Route element={<ProtectedRoute />}>
         <Route element={<Layout />}>
           <Route path="/profile" element={<Profile />} />

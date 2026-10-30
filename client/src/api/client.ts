@@ -4,7 +4,6 @@ const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
 });
 
-// Before every request: attach the JWT if we have one
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('token');
   if (token) {
@@ -13,7 +12,6 @@ api.interceptors.request.use((config) => {
   return config;
 });
 
-// After every response: if the token is rejected, log the user out
 api.interceptors.response.use(
   (response) => response,
   (error) => {
@@ -26,7 +24,6 @@ api.interceptors.response.use(
   }
 );
 
-// Turns any backend/network error into a readable message
 export function getErrorMessage(error: unknown): string {
   if (axios.isAxiosError(error)) {
     const data = error.response?.data;

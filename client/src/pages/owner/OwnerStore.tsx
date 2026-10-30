@@ -57,7 +57,6 @@ export default function OwnerStore() {
   // Load ratings whenever the page or sort changes
   useEffect(() => {
     let cancelled = false;
-    // Loading state tracks this external fetch lifecycle.
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setRatingsLoading(true);
 

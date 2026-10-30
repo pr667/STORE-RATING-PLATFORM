@@ -28,7 +28,6 @@ export default function MyRatings() {
 
   useEffect(() => {
     let cancelled = false;
-    // Loading state tracks this external fetch lifecycle.
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true);
 
